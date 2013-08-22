@@ -8,10 +8,13 @@ namespace IwtPortal.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index(string returnUrl)
+        //
+        // GET: /Home/
+
+        public ActionResult Index()
         {
-            ViewBag.ReturnUrl = returnUrl;
             return View();
         }
+
     }
 }

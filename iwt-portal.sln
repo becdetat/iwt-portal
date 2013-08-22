@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IwtPortal", "src\IwtPortal\IwtPortal.csproj", "{EA8A1A4F-9B8D-489C-9771-823F791FF313}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IwtPortalTests", "src\IwtPortalTests\IwtPortalTests.csproj", "{3A775619-3DA4-4921-A5C6-4240ED065BE7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DD2FFA40-2FA5-4499-8D31-E79F2AEEA879}"
@@ -12,20 +10,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DD2FFA
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IwtPortal", "src\IwtPortal\IwtPortal.csproj", "{47D91D9A-0E13-4DC1-A4E2-0366AB345415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IwtPortal.Shared", "src\IwtPortal.Shared\IwtPortal.Shared.csproj", "{0D0E439C-3938-48E7-9AAF-F674607524D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EA8A1A4F-9B8D-489C-9771-823F791FF313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA8A1A4F-9B8D-489C-9771-823F791FF313}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA8A1A4F-9B8D-489C-9771-823F791FF313}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA8A1A4F-9B8D-489C-9771-823F791FF313}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3A775619-3DA4-4921-A5C6-4240ED065BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3A775619-3DA4-4921-A5C6-4240ED065BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A775619-3DA4-4921-A5C6-4240ED065BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A775619-3DA4-4921-A5C6-4240ED065BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D91D9A-0E13-4DC1-A4E2-0366AB345415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D91D9A-0E13-4DC1-A4E2-0366AB345415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D91D9A-0E13-4DC1-A4E2-0366AB345415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D91D9A-0E13-4DC1-A4E2-0366AB345415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0E439C-3938-48E7-9AAF-F674607524D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0E439C-3938-48E7-9AAF-F674607524D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0E439C-3938-48E7-9AAF-F674607524D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0E439C-3938-48E7-9AAF-F674607524D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
